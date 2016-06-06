@@ -1,4 +1,5 @@
-<html><head><title>Contate-nos</title>
+<html><head>
+    <title>Contate-nos</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -20,9 +21,10 @@
         <div class="collapse navbar-collapse" id="navbar-ex-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="#">Entrar</a>
+              <a data-toggle="modal" href="#modalLogin">Entrar</a>
             </li>
           </ul>
+          <ul class="nav navbar-nav navbar-right"></ul>
         </div>
       </div>
     </div>
@@ -31,6 +33,31 @@
         <div class="col-md-12 text-center">
           <h1>Ajude a Melhorar</h1>
           <i class="fa fa-1x fa-5x fa-fw fa-comments-o"></i>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="modalLogin">
+      <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 class="modal-title">
+              <i class="fa fa-lg fa-user pull-left"></i>Entrar</h3>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label class="control-label" for="exampleInputEmail1">Login</label>
+                <input class="form-control" id="exampleInputEmail1" placeholder="Digite o seu Login" type="email">
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="exampleInputPassword1">Senha</label>
+                <input class="form-control" id="exampleInputPassword1" placeholder="Digite a sua Senha" type="password">
+              </div>
+              <button type="submit" class="btn btn-default">Entrar</button>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
     </div>

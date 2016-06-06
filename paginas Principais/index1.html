@@ -35,7 +35,7 @@
             <p class="text-inverse">Fique por dentro da sua vaga e garanta o seu direito!</p>
             <br>
             <br>
-            <a class="btn btn-lg btn-primary">Entrar</a>
+            <a class="btn btn-lg btn-primary" data-toggle="modal" href="#modalLoginIndex">Entrar</a>
           </div>
         </div>
       </div>
@@ -71,7 +71,7 @@
         </div>
         <div class="row text-center">
           <div class="col-md-6 text-center">
-            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="center-block img-circle img-responsive" width="300">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png" class="center-block img-circle img-responsive" width="200">
             <h3 class="text-center">Jerfferson</h3>
             <p class="text-center">Desenvolvedor</p>
             <a href="#"><i class="fa fa-3x fa-facebook fa-fw text-primary"></i></a>
@@ -80,7 +80,7 @@
             <a href="#"><i class="fa fa-3x fa-fw fa-github text-primary"></i></a>
           </div>
           <div class="col-md-6 text-center">
-            <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/10846138_793531277369698_6975815200213487744_n.jpg?oh=d3bdcde9e9dce51f117eb0d87ac3347f&amp;oe=57CD3581&amp;__gda__=1474101645_70fa7f26fa0883a56163ccd009b9fa01" class="center-block img-circle img-responsive" width="300">
+            <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-ash2/v/t1.0-9/10846138_793531277369698_6975815200213487744_n.jpg?oh=d3bdcde9e9dce51f117eb0d87ac3347f&amp;oe=57CD3581&amp;__gda__=1474101645_70fa7f26fa0883a56163ccd009b9fa01" class="center-block img-circle img-responsive" width="200">
             <h3 class="text-center">Randler</h3>
             <p class="text-center">Desenvolvedor</p>
             <a href="https://www.facebook.com/randlerferraz"><i class="fa fa-3x fa-facebook fa-fw text-primary"></i></a>
@@ -88,6 +88,31 @@
             <a href="https://www.instagram.com/randler_ferraz/"><i class="fa fa-3x fa-fw fa-instagram text-primary"></i></a>
             <a href="https://github.com/randler"><i class="fa fa-3x fa-fw fa-github text-primary"></i></a>
           </div>
+        </div>
+      </div>
+    </div>
+    <div class="fade modal" id="modalLoginIndex">
+      <div class="modal-dialog modal-sm" id="modalLoginIndex">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title" contenteditable="true">
+              <i class="fa fa-fw fa-lg fa-user"></i>Entrar</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label class="control-label" for="exampleInputEmail1">Login</label>
+                <input class="form-control" id="exampleInputEmail1" placeholder="Digite o seu Login" type="email">
+              </div>
+              <div class="form-group">
+                <label class="control-label" for="exampleInputPassword1">Senha</label>
+                <input class="form-control" id="exampleInputPassword1" placeholder="Digite sua Senha" type="password">
+              </div>
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </form>
+          </div>
+          <div class="modal-footer"></div>
         </div>
       </div>
     </div>
