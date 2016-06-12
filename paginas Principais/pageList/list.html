@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Simplicio | Lista de Alunos</title>
+  <title>Simplício | Lista de Alunos</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
@@ -26,7 +26,7 @@
   <![endif]-->
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-<body class="hold-transition skin-blue layout-top-nav">
+<body class="hold-transition skin-black layout-top-nav">
 <div class="wrapper">
 
   <header class="main-header">
@@ -34,7 +34,7 @@
       <div class="container">
         <div class="navbar-header">
           <a href="../index1.html" class="logo">
-            <span class="logo-lg"><i class="fa fa-fw fa-bus"></i><b>Simplicio</b></span>
+            <span class="logo-lg"><i class="fa fa-fw fa-bus"></i><b>Simplício</b></span>
           </a>
           
         </div>
@@ -128,17 +128,97 @@
 
       <!-- Main content -->
       <section class="content">
+<div class="row">
+        <div class="col-xs-12">
+          <div class="box">
+            <div class="box-header">
+              <h3 class="box-title">Dados dos Alunos Cadastrados </h3>
 
+              <div class="box-tools">
+                <div class="input-group input-group-sm" style="width: 150px;">
+                  <input type="text" name="table_search" class="form-control pull-right" placeholder="Search">
 
-        <div class="box box-default">
-          <div class="box-header with-border">
-            <h3 class="box-title">Blank Box</h3>
+                  <div class="input-group-btn">
+                    <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body table-responsive no-padding">
+              <table class="table table-hover">
+                <tr>
+                  <th>Nome</th>
+                  <th>Poltrona</th>
+                  <th>Faculdade</th>
+                  <th>Frequências</th>
+                  <th>Documentos</th>
+                  <th>Pendência</th>
+                </tr>
+                <tr>
+                  <td>Randler Ferraz Almeida</td>
+                    <td>44</td>
+                  <td>IFBA</td>
+                    <td>
+                        <span class="label label-success">S</span>
+                        <span class="label label-success">T</span>
+                        <span class="label label-danger">Q</span>
+                        <span class="label label-success">Q</span>
+                        <span class="label label-danger">S</span>
+                        <span class="label label-success">S</span>
+                    </td>
+                  <td><span class="label label-success">Completa</span></td>
+                  <td>
+                  <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-success" style="width: 100%"></div>
+                    </div>  
+                  </td>
+                </tr>
+                <tr>
+                  <td>Jefferson</td>
+                    <td>37</td>
+                  <td>FTC</td>
+                  <td>
+                        <span class="label label-success">S</span>
+                        <span class="label label-danger">T</span>
+                        <span class="label label-danger">Q</span>
+                        <span class="label label-success">Q</span>
+                        <span class="label label-success">S</span>
+                        <span class="label label-danger">S</span>
+                  </td>
+                  <td><span class="label label-warning">Pendente</span></td>
+                  <td>
+                  <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-warning" style="width: 40%"></div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Amanda Mito</td>
+                    <td>22</td>
+                  <td>FAINOR</td>
+                  <td>
+                        <span class="label label-success">S</span>
+                        <span class="label label-success">T</span>
+                        <span class="label label-success">Q</span>
+                        <span class="label label-success">Q</span>
+                        <span class="label label-success">S</span>
+                        <span class="label label-danger">S</span>
+                  </td>
+                  <td><span class="label label-danger">Inexistente</span></td>
+                  <td>
+                    <div class="progress progress-xs">
+                      <div class="progress-bar progress-bar-danger" style="width: 3%"></div>
+                    </div>
+                  </td>
+                </tr>
+              </table>
+            </div>
+            <!-- /.box-body -->
           </div>
-          <div class="box-body">
-            The great content goes here
-          </div>
-          <!-- /.box-body -->
+          <!-- /.box -->
         </div>
+      </div>
         <!-- /.box -->
       </section>
       <!-- /.content -->
@@ -149,9 +229,9 @@
   <footer class="main-footer">
     <div class="container">
       <div class="pull-right hidden-xs">
-        <b>Version</b> 2.3.3
+        <b>Version</b> 1
       </div>
-      <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights
+      <strong>Copyright &copy; 2016 <a href="https://github.com/randler/Onibus">Randler and  Jefferson</a>.</strong> All rights
       reserved.
     </div>
     <!-- /.container -->
